@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd700;
+}
+
+#ilha {
+    display: inline-grid;
+    grid-gap: 2px;
+    margin: 20px 0;
+}
+
+.celula {
+    width: 40px;
+    height: 40px;
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+.celula.revelada {
+    background-color: #ddd;
+    color: #000;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+}
